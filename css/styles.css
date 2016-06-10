@@ -8,25 +8,48 @@ IMPORTS
 /********************
 YOUR STYLES
 *******************/
+/*New BG Color*/
+*{
+     font-family: 'Shadows Into Light', cursive;
+}
 
+header{background: black}
 
+.site-branding{background: #a10022; }
 
+.main-area{
+background: #a10022;  
+}
+
+.lg-backdrop{
+     background-color: black;
+}
+
+.lg-image{
+     border-radius: 4px;
+     box-shadow: 0 0 8px white;
+}
+
+h1{
+     margin-left: 60px;
+     font-size: 72px;
+}
 
 /********************
 MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 75em) {
 
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (min-width: 48em) {
 
 }
 
 /* Mobile */
-@media (min-width: 480px) {
+@media (min-width: 30em) {
 
 }
